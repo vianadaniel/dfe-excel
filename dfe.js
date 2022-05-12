@@ -200,3 +200,276 @@ export const dfe = {
             versao: "3.00"
 		}
 }
+
+export const dfes = [
+	{
+		dfe: "nfse",
+		event: "emit",
+		data: {
+			_id: "60c7e071042775cd44af8c71",
+			branchId: "f0134c1d-8aba-4885-816b-a26ee52b19ad",
+			chRps: "20213547809RPSundefined15633",
+			tenantid: "ac5fed9e-9902-4aca-b955-f67e0057dde3",
+			eventos: [
+				{
+					type: "EMISSÃO DE RPS"
+				}
+			],
+			nfse: {
+				numero: "15633",
+				dataEmissao: "2020-11-15T20:03:00-03:00"
+			},
+			rps: {
+				identificacao: {
+					serie: "1233",
+					numero: "15633",
+					tipoRps: "RPS",
+					dataEmissao: "2021-04-15",
+					competencia: "false",
+					naturezaOperacao: "1",
+					regimeEspecialTributacao: "T",
+					optanteSimplesNacional: "false",
+					incentivadorCultural: "false",
+					descricao: "descricao"
+				},
+				tomador: {
+					cnpj: "02055072000161",
+					razaoSocial: "UNOTECH IMPORTAÇÃO E COMERCIO LTDA",
+					nomeFantasia: "false",
+					docEstrangeiro: "",
+					inscricaoEstadual: "000000",
+					inscricaoMunicipal: "180640",
+					endereco: {
+						tipoLogradouro: "AVENIDA",
+						logradouro: "VALENTIM MAGALHAES",
+						numero: "1301",
+						complemento: "",
+						bairro: "VILA AMERICA",
+						codigoMunicipio: "3547809",
+						uf: "SP",
+						cep: "09120410",
+						codigoPais: "1058",
+						nomePais: "Brasil",
+						nomeMunicipio: "5316",
+						tpBairro: "VILA AMERICA"
+					},
+					contato: {
+						ddd: "18",
+						telefone: "99999999",
+						fax: "",
+						site: "",
+						email: "."
+					}
+				},
+				servico: {
+					tpRecolhimento: "A",
+					codigoAtividade: "000023.01",
+					aliquotaAtividade: 5,
+					codigoServico: "23.01",
+					quantidade: 1,
+					valorUnitario: 4591.07,
+					discriminacao: "SERVICO DE INFORMATICA",
+					itemListaServico: "false",
+					cnae: "false",
+					codigoTributacaoMunicipio: "1714001",
+					codigoMunicipioIncidencia: "3547809",
+					valores: {
+						totalServicos: 4591.07,
+						totalDeducoes: 0,
+						descontoCondicionado: 0,
+						descontoIncondicionado: 0,
+						outrasRetencoes: 0,
+						iss: {
+							baseCalculo: 0,
+							aliquota: 0,
+							valor: 1,
+							valorRetido: 0,
+							retido: false,
+							exigibilidadeIss: "2"
+						},
+						pis: {
+							aliquota: 0.65,
+							valor: 29.84
+						},
+						inss: {
+							aliquota: 0,
+							valor: 0
+						},
+						ir: {
+							aliquota: 1.5,
+							valor: 68.87
+						},
+						csll: {
+							aliquota: 1,
+							valor: 45.91
+						}
+					}
+				},
+				prestador: {
+					cnpj: "06179861000165",
+					inscricaoMunicipal: "00000",
+					razaoSocial: "SEIDOR CRYSTALIS- TECNOLOGIA DA INFORMAÇÃO LTDA",
+					endereco: {
+						tipoLogradouro: "AVE",
+						logradouro: "VALENTIM MAGALHAES",
+						numero: "1301",
+						complemento: null,
+						bairro: "VILA AMERICA",
+						codigoMunicipio: "3547809",
+						nomeMunicipio: "",
+						codigoPais: "1058",
+						nomePais: "BRASIL",
+						uf: "SP",
+						cep: "09120410",
+						tpBairro: "",
+						cUf: null,
+						nomeUf: ""
+					}
+				}
+			},
+			status: {
+				cStat: "0",
+				mStat: "NFSE EMITIDA"
+			},
+			tipoOperacao: "input",
+			versao: "1"
+		}
+	},
+	{
+		dfe: "nfse",
+		event: "emit",
+		data: {
+			_id: "60c7e071042775cd44af8c71",
+			branchId: "f0134c1d-8aba-4885-816b-a26ee52b19ad",
+			chRps: "20213547809RPSundefined15633",
+			tenantid: "ac5fed9e-9902-4aca-b955-f67e0057dde3",
+			eventos: [
+				{
+					type: "EMISSÃO DE RPS"
+				}
+			],
+			nfse: {
+				numero: "15633",
+				dataEmissao: "2020-11-15T20:03:00-03:00"
+			},
+			rps: {
+				identificacao: {
+					serie: "1233",
+					numero: "15634",
+					tipoRps: "RPS",
+					dataEmissao: "2021-04-15",
+					competencia: "false",
+					naturezaOperacao: "1",
+					regimeEspecialTributacao: "T",
+					optanteSimplesNacional: "false",
+					incentivadorCultural: "false",
+					descricao: "descricao"
+				},
+				tomador: {
+					cnpj: "02055072000161",
+					razaoSocial: "UNOTECH IMPORTAÇÃO E COMERCIO LTDA",
+					nomeFantasia: "false",
+					docEstrangeiro: "",
+					inscricaoEstadual: "000000",
+					inscricaoMunicipal: "180640",
+					endereco: {
+						tipoLogradouro: "AVENIDA",
+						logradouro: "VALENTIM MAGALHAES",
+						numero: "1301",
+						complemento: "",
+						bairro: "VILA AMERICA",
+						codigoMunicipio: "3547809",
+						uf: "SP",
+						cep: "09120410",
+						codigoPais: "1058",
+						nomePais: "Brasil",
+						nomeMunicipio: "5316",
+						tpBairro: "VILA AMERICA"
+					},
+					contato: {
+						ddd: "18",
+						telefone: "99999999",
+						fax: "",
+						site: "",
+						email: "."
+					}
+				},
+				servico: {
+					tpRecolhimento: "A",
+					codigoAtividade: "000023.01",
+					aliquotaAtividade: 5,
+					codigoServico: "23.01",
+					quantidade: 1,
+					valorUnitario: 4591.07,
+					discriminacao: "SERVICO DE INFORMATICA",
+					itemListaServico: "false",
+					cnae: "false",
+					codigoTributacaoMunicipio: "1714001",
+					codigoMunicipioIncidencia: "3547809",
+					valores: {
+						totalServicos: 4591.07,
+						totalDeducoes: 0,
+						descontoCondicionado: 0,
+						descontoIncondicionado: 0,
+						outrasRetencoes: 0,
+						iss: {
+							baseCalculo: 0,
+							aliquota: 1,
+							valor: 0,
+							valorRetido: 1,
+							retido: false,
+							exigibilidadeIss: "2"
+						},
+						pis: {
+							aliquota: 0.65,
+							valor: 29.84
+						},
+						cofins: {
+							aliquota: 3,
+							valor: 137.73
+						},
+						inss: {
+							aliquota: 0,
+							valor: 0
+						},
+						ir: {
+							aliquota: 1.5,
+							valor: 68.87
+						},
+						csll: {
+							aliquota: 1,
+							valor: 45.91
+						}
+					}
+				},
+				prestador: {
+					cnpj: "06179861000165",
+					inscricaoMunicipal: "00000",
+					razaoSocial: "SEIDOR CRYSTALIS- TECNOLOGIA DA INFORMAÇÃO LTDA",
+					endereco: {
+						tipoLogradouro: "AVE",
+						logradouro: "VALENTIM MAGALHAES",
+						numero: "1301",
+						complemento: null,
+						bairro: "VILA AMERICA",
+						codigoMunicipio: "3547809",
+						nomeMunicipio: "",
+						codigoPais: "1058",
+						nomePais: "BRASIL",
+						uf: "SP",
+						cep: "09120410",
+						tpBairro: "",
+						cUf: null,
+						nomeUf: ""
+					}
+				}
+			},
+			status: {
+				cStat: "0",
+				mStat: "NFSE EMITIDA"
+			},
+			tipoOperacao: "input",
+			versao: "1"
+		}
+	}
+]
